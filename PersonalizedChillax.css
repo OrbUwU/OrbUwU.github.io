@@ -227,7 +227,7 @@
   visibility: hidden !important;
 }
 .theme-dark .placeholder-1rCBhr::before {
-  content: "Life is so much easier when you just take a time to chill";
+  content: "Send a message...";
   color: rgba(255, 255, 255, 0.2);
   font-family: "Poppins";
   font-size: 13px;
@@ -550,21 +550,7 @@ backdrop-filter: blur(5px);
 .btn-primary {
   color: white !important;
 }
-/*welcome text*/
-.theme-dark body:before {
-  content: "Greetings " var(--user-name) "!";
-  z-index: 1000000000000000000000000;
-  color: #fff;
-  background-color: #0000007a;
-  top: 0px;
-  left: 52%;
-  position: absolute;
-  border-radius: 5px;
-  padding: 5px 15px;
-  transform: translate(-60%, -100%);
-  animation: chl 3s ease;
-  animation-delay: 4s;
-}
+
 body,
 span:not(.spinner-item) {
   -webkit-font-smoothing: antialiased;
@@ -716,7 +702,7 @@ span:not(.spinner-item) {
   --cl-appearance: "Dark";
 }
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
-  content: "Chillax " var(--cl-appearance) " 🎮";
+  content: "Discord " var(--cl-appearance) " 🎮";
   display: block;
 }
 /*custom bd window edit*/
